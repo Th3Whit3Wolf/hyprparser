@@ -1,0 +1,24 @@
+[lib]
+name = "hyprparser"
+path = "src/lib.rs"
+
+[package]
+authors = ["Nyx <nnyyxxxx@protonmail.com>", "Adam Perkowski <adas1per@protonmail.com>"]
+autobenches = false
+autobins = false
+autoexamples = false
+autotests = false
+build = false
+categories = ["config"]
+description = "A parser for Hyprland's configuration file."
+edition = "2021"
+keywords = ["parser", "hyprland", "wayland", "config"]
+license = "GPL-2.0"
+name = "hyprparser"
+readme = "README.md"
+repository = "https://github.com/hyprutils/hyprparser.git"
+version = "0.1.6"
+
+[[test]]
+name = "integration"
+path = "tests/integration.rs"
